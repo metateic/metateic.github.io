@@ -9,7 +9,7 @@ import IconButton from "@mui/joy/IconButton";
 import DarkModeRoundedIcon from "@mui/icons-material/DarkModeRounded";
 import LightModeRoundedIcon from "@mui/icons-material/LightModeRounded";
 
-import framesxTheme from "./theme";
+import framesxTheme from "../styles/theme";
 import Intro from "../blocks/Intro";
 import CaseStudies from "../blocks/CaseStudies";
 import TechPortfolio from "../blocks/TechPortfolio";

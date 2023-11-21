@@ -1,7 +1,7 @@
 import { extendTheme } from '@mui/joy/styles';
 import { inputClasses } from '@mui/joy/Input';
 
-export default extendTheme({
+const theme = extendTheme({
   colorSchemes: {
     light: {
       palette: {
@@ -70,3 +70,5 @@ export default extendTheme({
     },
   },
 });
+
+export default theme;
