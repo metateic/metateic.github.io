@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
-          node-version: 21
-      - run: npm ci
+          node-version: 21.2.0
+
       - run: npm run build
+      
       - run: cd out
 
       - uses: actions/upload-pages-artifact@v1
