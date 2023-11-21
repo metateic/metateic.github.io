@@ -23,7 +23,7 @@ export default function Intro() {
       <Typography fontSize="lg" textColor="text.secondary" lineHeight="lg">
         Our goal is to make small changes, with the right impact.
       </Typography>
-      <Button size="lg" endDecorator={<ArrowForward fontSize="xl" />}>
+      <Button size="lg" endDecorator={<ArrowForward/>}>
         Get Started
       </Button>
       <Typography>

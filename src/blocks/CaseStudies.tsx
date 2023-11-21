@@ -32,7 +32,7 @@ export default function CaseStudies() {
           "& > *": { flex: "auto" }
         }}
       >
-        <Button size="lg" endDecorator={<ArrowForward fontSize="xl" />}>
+        <Button size="lg" endDecorator={<ArrowForward/>}>
           Case studies
         </Button>
       </Box>
@@ -66,7 +66,7 @@ export default function CaseStudies() {
           <Typography
             fontSize="xl4"
             fontWeight="lg"
-            endDecorator={<Star fontSize="xl4" sx={{ color: "warning.300" }} />}
+            endDecorator={<Star sx={{ color: "warning.300" }} />}
           >
             4.9
           </Typography>

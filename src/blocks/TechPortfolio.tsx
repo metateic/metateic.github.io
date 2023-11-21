@@ -38,7 +38,7 @@ export default function TechPortfolio() {
         <Button size="lg" variant="outlined" color="neutral">
           Learn More
         </Button>
-        <Button size="lg" endDecorator={<ArrowForward fontSize="xl" />}>
+        <Button size="lg" endDecorator={<ArrowForward/>}>
           Get Started
         </Button>
       </Box>

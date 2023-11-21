@@ -33,7 +33,7 @@ export default function Teamwork() {
           "& > *": { flex: "auto" }
         }}
       >
-        <Button size="lg" endDecorator={<ArrowForward fontSize="xl" />}>
+        <Button size="lg" endDecorator={<ArrowForward/>}>
           Detailed strategy
         </Button>
         <Button
