@@ -13,12 +13,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 21.2.0
-          
+
       - uses: actions/checkout@v3
 
       - run: ls
 
-      - run:  npm run build --env.env
+      - run:  npm run build
 
       - run: cd out
 
