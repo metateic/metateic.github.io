@@ -55,7 +55,6 @@ export default function Teamwork() {
           transform: "translateX(-50%)"
         }}
       >
-        HeroLeft04
       </Typography>
     </TwoSidedLayout>
   );

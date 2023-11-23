@@ -74,7 +74,6 @@ export default function TechPortfolio() {
           transform: "translateX(-50%)"
         }}
       >
-        HeroLeft03
       </Typography>
     </TwoSidedLayout>
   );
