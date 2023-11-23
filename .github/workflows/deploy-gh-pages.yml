@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 21
 
-      - run: DATABASE_URL=blah npm install && npm run build --env.env
+      - run: npm install && npm run build --env.env
       
       - run: cd out
 
